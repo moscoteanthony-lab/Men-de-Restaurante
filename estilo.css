@@ -1,0 +1,87 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+  background: #fdfdf9;
+  color: #2c2c2c;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  color: #3b2e2a;
+}
+.header .sub {
+  font-size: 1.1rem;
+  color: #6a5a4b;
+  margin-top: 5px;
+}
+
+/* Menu */
+.menu {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.categoria {
+  margin-bottom: 30px;
+}
+.categoria h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #e6ddd4;
+  padding-bottom: 5px;
+  color: #5a4634;
+}
+
+/* Platos */
+.plato {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #ddd;
+}
+.plato:last-child {
+  border-bottom: none;
+}
+.plato h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #3b2e2a;
+}
+.plato p {
+  font-size: 0.95rem;
+  color: #555;
+}
+.precio {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #7a5a3a;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 40px;
+  color: #7a6653;
+}
